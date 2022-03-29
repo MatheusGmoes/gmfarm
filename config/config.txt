@@ -1,0 +1,1 @@
+# diretório de toda configuração da aplicação
