@@ -22,7 +22,7 @@
     <div class="container position-relative">
       <div class="row">
         <div class="col pt-5 position-absolute top-0 start-0">
-          <h1 style="color: white;">BEM-VINDO</h1>
+          <h1 class="text-light mb-4">BEM-VINDO</h1>
           <h1 style="color: #CA8D5A;">SISTEMA DE GESTÃO DE MATERIAS DE FARMÁCIA</h1>
         </div>
       </div>
