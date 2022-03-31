@@ -12,10 +12,12 @@
   <!-- link css -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
+<body style="background-color: #B3D2C2">
+bem vindos
   <header>
     <?php include_once('./resources/layout/header.php'); ?>
   </header>
+
   <main class="w-100 position-relative">
     <img src="./assets/images/logo UNICEPLAC.png" alt="Logo Uniceplac" class="position-absolute top-0 end-0">
     <div class="container position-relative">
@@ -25,8 +27,8 @@
           <h1>SISTEMA DE GESTÃO DE MATERIAS DE FARMÁCIA</h1>
         </div>
       </div>
-    </div>
-  </main>
+
+
   <!-- script bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
