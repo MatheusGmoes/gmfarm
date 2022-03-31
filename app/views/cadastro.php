@@ -12,46 +12,50 @@
         <header>
             <?php include_once('../../resources/layout/header.php'); ?>
         </header>
-        <main class="w-100 position-relative">
-            <div class="card w-50 h50 position-absolute top-50 start-50 translate-middle">
-                <div class="card-body">
-                    <form action="#" method="POST" name="formCadastro">
-                        <div class="row pb-2">
-                            <div class="d-flex justify-content-center">
-                                <h2 class="card-title">Cadastrar Usuário</h2>
+        <main>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-lg-6 pt-5 mx-auto">
+                        <div class="card">
+                            <div class="card-title text-center mt-3">
+                                <h2>Cadastrar Usuário</h2>
+                            </div>
+                            <div class="card-body">
+                                <form action="#" method="POST">
+                                    <div class="row">
+                                        <div class="mb-3">
+                                            <label for="nome" class="form-label">NOME</label>
+                                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1">
+                                        <label for="sexo-radio">SEXO:</label>
+                                    </div>
+                                    <div class="row row-cols-auto">
+                                        <div class="col">
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="sexo-radio" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                MASCULINO
+                                            </label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="sexo-radio" value="" id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                FEMININO
+                                            </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row-reverse">
+                                        <input type="submit" class="btn btn-primary" name="btnCadastro" value="Enviar">
+                                    </div> 
+                                </form>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="mb-3">
-                                <label for="nome" class="form-label">NOME</label>
-                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome Completo">
-                            </div>
-                        </div>
-                        <div class="row mb-1">
-                            <label for="sexo-radio">SEXO:</label>
-                        </div>
-                        <div class="row row-cols-auto">
-                            <div class="col">
-                                <div class="form-check">
-                                <input class="form-check-input" type="radio" name="sexo-radio" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    MASCULINO
-                                </label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                <input class="form-check-input" type="radio" name="sexo-radio" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    FEMININO
-                                </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex flex-row-reverse">
-                            <input type="submit" class="btn btn-secondary" name="btnCadastro" value="Enviar">
-                        </div> 
-                    </form>
+                    </div>
                 </div>
             </div>
         </main>
