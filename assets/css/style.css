@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background: #b3d2c2; height: 100vh;
+}
+
+main img{
+height: 100%;
+}
+
+nav{
+  background: #3B7454;
+}
