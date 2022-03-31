@@ -17,10 +17,10 @@
     <?php include_once('./resources/layout/header.php'); ?>
   </header>
   <main class="w-100 position-relative">
-    <img src="./assets/images/logo UNICEPLAC.png" alt="Logo Uniceplac" class="position-absolute top-0 end-0 border">
+    <img src="./assets/images/logo UNICEPLAC.png" alt="Logo Uniceplac" class="position-absolute top-0 end-0">
     <div class="container position-relative">
       <div class="row">
-        <div class="col pt-5 position-absolute top-0 start-0 border">
+        <div class="col pt-5 position-absolute top-0 start-0">
           <h1>BEM-VINDO</h1>
           <h1>SISTEMA DE GESTÃO DE MATERIAS DE FARMÁCIA</h1>
         </div>
