@@ -12,8 +12,7 @@
   <!-- link css -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body style="background-color: #B3D2C2">
-bem vindos
+<body>
   <header>
     <?php include_once('./resources/layout/header.php'); ?>
   </header>
@@ -23,12 +22,12 @@ bem vindos
     <div class="container position-relative">
       <div class="row">
         <div class="col pt-5 position-absolute top-0 start-0">
-          <h1>BEM-VINDO</h1>
-          <h1>SISTEMA DE GESTÃO DE MATERIAS DE FARMÁCIA</h1>
+          <h1 style="color: white;">BEM-VINDO</h1>
+          <h1 style="color: #CA8D5A;">SISTEMA DE GESTÃO DE MATERIAS DE FARMÁCIA</h1>
         </div>
       </div>
-
-
+    </div>
+  </main>
   <!-- script bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
